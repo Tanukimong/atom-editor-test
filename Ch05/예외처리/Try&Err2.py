@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 try:
     f = open('foo.txt','r')
 except FileNotFoundError as e:
@@ -5,3 +6,4 @@ except FileNotFoundError as e:
 else:
     data = f.read()
     f.close()
+    
